@@ -93,11 +93,13 @@ public class Main {
 
 */
         //Sync
+
         Resursa res = new Resursa(3);
         FirSet fs = new FirSet(res);
         FirGet fg = new FirGet(res);
         fs.start();
         fg.start();
+
     }
 
 }
